@@ -1,0 +1,18 @@
+$font-family: 'Raleway', sans-serif;
+$bg-color: #fff;
+$primary-color: #3fa33f;
+$success-color: #2e863a;
+$success-color-light: rgba(82, 231, 82,0.5);
+$danger-color: #ff0000;
+$warning-color: #ff5613;
+$bg-success: green;
+$disable-color: #a8a8a8;
+$gray-color: #525252;
+$radius: 5px;
+$basic-shadow: 0 2px 10px rgba(31,45,61,.16);
+$default-transition-duration: 200ms;
+.disable {
+  cursor: not-allowed ;
+  background: $disable-color;
+}
+

@@ -1,0 +1,11 @@
+@import '../../base';
+.title-wrapper {
+  text-align: center;
+  margin: 1.5rem 0;
+  .title {
+    display: inline-block;
+    padding: 1.5rem;
+    border-top: 1px solid lightgreen;
+    border-bottom: 1px solid lightgreen;
+  }
+}

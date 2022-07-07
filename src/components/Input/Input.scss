@@ -1,0 +1,35 @@
+@import "src/base";
+.input-wrapper {
+  * {
+    margin: 0.3rem 0;
+    font-size: 18px;
+    font-weight:400;
+  }
+  input {
+    line-height: 45px;
+    width: 95%;
+    padding: 0 0.5rem;
+    color: gray;
+    border-radius: $radius;
+    outline: none;
+    border: 1px solid #c7c7c7;
+    transition: $default-transition-duration;
+    &:focus {
+      border: 1px solid #808080;
+    }
+    &::placeholder {
+      color: rgba(128, 128, 128, 0.64);
+
+    }
+  }
+  span {
+    color: $danger-color;
+    font-size: 14px;
+  }
+  label {
+    color: gray;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+  }
+}

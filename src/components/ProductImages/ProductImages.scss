@@ -1,0 +1,65 @@
+@import '../../base';
+.product-images {
+  flex: 1 1 auto;
+  position: relative;
+  width: 25%;
+}
+.product-images .slider-image {
+  border-radius: $radius;
+}
+.carousel-arrow{
+  z-index: 4;
+}
+.product-images .carousel-arrow {
+}
+.product-images .carousel-arrow svg {
+  width: 70px;
+}
+.carousel-arrow.carousel-arrow-right svg{
+  transform: rotateY(180deg);
+
+}
+.carousel-arrow{
+  position: absolute;
+  top: 45%;
+  cursor: pointer;
+  svg {
+    width: 45px;
+    height: 45px;
+    fill: rgba(69, 66, 78, 0.57);
+    transition: 200ms;
+    padding: 0 10px;
+    path {
+      cursor: pointer;
+    }
+    &:hover {
+      fill: #525252;
+    }
+  }
+}
+.carousel-arrow-right{
+  right: 0;
+  z-index: 1;
+}
+.selected {
+  border: none;
+}
+.thumbs {
+  margin: 0;
+}
+.thumb {
+  cursor: pointer;
+
+  width: 100px!important;
+}
+.carousel .thumb.selected, .carousel .thumb:hover, .carousel .thumb {
+  border: none;
+  padding: 0;
+  outline: none;
+}
+.carousel .thumb:hover {
+  border: 1px solid #eee ;
+}
+.carousel .thumbs-wrapper {
+  margin: 10px 0;
+}

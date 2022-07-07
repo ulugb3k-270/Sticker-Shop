@@ -1,0 +1,33 @@
+@import '../../base';
+.pagination {
+    width: 1220px;
+    border-top: 1px solid #80808026;
+    height: auto;
+    margin: 1rem auto;
+    padding-top: 1rem;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    z-index: 10000;
+    align-items: center;
+
+}
+.pagination > * {
+    height: 50px;
+    font-size: 18px;
+}
+
+.pagination button {
+    margin: 5px;
+}
+.pagination input {
+    width: 50px;
+    height: 45px;
+    border: 1px solid lightgray;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.pagination .input-wrapper hq {
+    margin: 20px;
+}
